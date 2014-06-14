@@ -1,0 +1,19 @@
+## Git Commands
+
+## "git add ." <- adds all new files
+## "git add -u" <- updates tracking for files that changed names or were deleted
+## "git add -A" <- does both of the above
+## before you "commit", you need to "add" them to the index
+
+## Once they have been "added" to the index, then you can "commit" them to the local repo
+## "git commit -m "message" <- only updates the local repo, does not update remote repo on Github
+
+## Once they have been "committed" to the local repo, you can "push" them to the remote repo
+## "git push" <- take all changes you have committed and put them up on Github
+
+## Branches
+
+## "git checkout -b branchname" <- create a new branch
+## "git branch" <- what branch am I on currently
+## "git checkout master" <- take me back to master branch
+
